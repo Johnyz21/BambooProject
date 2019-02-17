@@ -1,6 +1,15 @@
 /Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/Application.java
 /Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/controller/Home/HomeController.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/service/impl/TransactionServiceImpl.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/CustomUserDetailsService.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/wrapper/SendBambeurosWrapper.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/WebSecurityConfig.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/service/TransactionService.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/entity/Account.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/repository/AccountRepository.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/entity/Transaction.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/repository/TransactionRepository.java
 /Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/controller/authentication/AuthenticationController.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/UserPrincipal.java
 /Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/entity/User.java
 /Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/repository/UserRepository.java
-/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/WebSecurityConfig.java

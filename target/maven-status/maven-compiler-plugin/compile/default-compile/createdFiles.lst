@@ -1,6 +1,15 @@
 project/controller/authentication/AuthenticationController.class
+project/UserPrincipal.class
+project/service/TransactionService.class
 project/entity/User.class
 project/Application.class
-project/repository/UserRepository.class
+project/entity/Transaction.class
+project/repository/TransactionRepository.class
 project/WebSecurityConfig.class
 project/controller/Home/HomeController.class
+project/CustomUserDetailsService.class
+project/wrapper/SendBambeurosWrapper.class
+project/repository/AccountRepository.class
+project/repository/UserRepository.class
+project/service/impl/TransactionServiceImpl.class
+project/entity/Account.class
