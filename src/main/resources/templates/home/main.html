@@ -1,10 +1,53 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Serving Web Content</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Getting Started: Serving Web Content</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-    <p th:text="'Hello, ' + ${name} + '!'" />
+	<form th:action="@{/logout}" method="post">
+		<input type="submit" value="Sign Out" />
+	</form>
+	<h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
+	
+	
+	<h2 th:text="${'Total Balance: ' + #numbers.formatDecimal(bambeuros,2,2)}"></h2>
+	<h2>Send Some Bambeuros</h2>
+	<form th:action="@{/sendBambeuros}" th:object="${sendBambeurosWrapper}"
+		method="post">
+		
+		<div>
+			<label>To:</label> <select th:field="*{to}">
+				<option th:each="user : ${users}" th:value="${user.id}"
+					th:text="${user.username}"></option>
+			</select>
+		</div>
+			
+		<div>
+			<label>Amount:</label> <input th:field="*{amount}" type="number">
+		</div>
+		
+		<button>Submit</button>
+	</form>
+	
+	<h2>Outgoing Transactions</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>From </th>
+				<th> To </th>
+				<th> Amount </th>
+			</tr>
+			
+		</thead>
+		<tbody>
+			<tr th:each="trans : ${transactions}">
+				<td th:text="${trans.from.user.username}"> </td>
+				<td th:text="${trans.to.user.username}"> </td>
+				<td th:text="${trans.bambeuros}"> </td>
+			</tr>
+		</tbody>
+	</table>
+	
 </body>
 </html>

@@ -1,2 +1,6 @@
-/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/controller/home/HomeController.java
-/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/home/Application.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/Application.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/controller/Home/HomeController.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/controller/authentication/AuthenticationController.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/entity/User.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/repository/UserRepository.java
+/Users/Jonathan/eclipse-workspace/bambooProject/src/main/java/project/WebSecurityConfig.java

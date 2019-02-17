@@ -1,0 +1,6 @@
+project/controller/authentication/AuthenticationController.class
+project/entity/User.class
+project/Application.class
+project/repository/UserRepository.class
+project/WebSecurityConfig.class
+project/controller/Home/HomeController.class
